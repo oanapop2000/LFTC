@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+    double r,p,a,pi;
+    pi=3.14159265359;
+    cin>>r;
+    p=2*pi*r;
+    a=pi*r*r;
+    cout<<p<<'\n';
+    cout<<a;
+    return 0;
+
+}
